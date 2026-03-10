@@ -3,10 +3,10 @@
     ? module.exports = factory() :
   typeof define === 'function' && define.amd 
     ? define(factory) :
-  (global.CourseLib = factory());
+  (global.CountryLib = factory());
 }(this, function () {
   return {
-    getCourseOptions(data) {
+    getCountryOptions(data) {
       return (data || []).map(s => ({
         label: s.name,
         value: s.id
