@@ -8,6 +8,8 @@
 
 	const MAIN_CONTAINER_COLOR = "#12141f";
 	const SUB_CONTAINER_COLOR = "#1a1d2e";
+	const PRIMARY_FONT_COLOR = "#ffffff"; // white
+	const SECONDARY_FONT_COLOR = "#a0a3bd"; // optional softer text
 
 	return {
 
@@ -29,7 +31,15 @@
 
 		getSubContainerColor() {
 			return SUB_CONTAINER_COLOR;
-		}
+		},
+
+		getPrimaryFontColor() {
+			return PRIMARY_FONT_COLOR;
+		},
+
+		getSecondaryFontColor() {
+			return SECONDARY_FONT_COLOR;
+		},
 
 	};
 
